@@ -1,0 +1,163 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    border: 2px solid gray;
+    font-family: 'Times New Roman';
+}
+header{
+    background-image: url(/images/nen_header.jpg);
+    position: relative;
+    width: 100%;
+    height: 110px;
+    padding: 2px;
+}
+header .header-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    position: absolute;
+}
+
+header .header-right{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+nav {
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(234, 197, 77);
+  }
+  
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    text-indent: -40px;
+  }
+  
+  ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 15px;
+  }
+  li a {
+    text-decoration: none;
+    color: white;
+  }
+.button{
+    background-color: red;
+    color: white;
+    margin: 0 150px;
+    border: 1px solid ;
+    padding: 10px;
+}
+  .content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  section{
+    width: 65%;
+    margin-left: 20px;
+  }
+  .section-form{
+   padding: 10px;
+   border: 2px solid #ddd;
+   background: linear-gradient(180deg,#fffddf,#fff);
+   margin-bottom: 10px;
+   border-bottom: 10px solid #e9c54f;
+   border-radius: 8px;
+  }
+  .section-form .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  input{
+    height: 30px;
+    width: 200px;
+    border-radius: 8px;
+  }
+  select{
+    height: 30px;
+    width: 450px;
+  }
+  .center-box{
+    background: linear-gradient(180deg,#fffddf,#fff);
+    padding: 5px;
+  }
+  section .center-text{
+    display: flex;
+
+    margin-bottom: 10px;
+  }
+  .text-1 p{
+    text-align: justify;
+  }
+  .text-1{
+    width: 65%;
+    margin-bottom: 5px;
+    border-right: 2px solid gray;
+    padding-right: 10px;
+  }
+  .text-1 img{
+    width: 13px;
+    height: 13px;
+  }
+  .text-1 span{
+    margin-left: 20px;
+  }
+  .text-2{
+    flex: 1;
+    margin-right: 20px;
+    padding: 7px;
+  }
+aside{
+    flex: 1;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid gray;
+    border-top: 4px solid  #e9c54f;
+    border-radius: 8px;
+  }
+aside .box{
+    display: flex;    
+  }
+aside .center-box1{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 2px solid gray;
+  }
+span{
+    margin-right: 10px;
+  }
+
+footer{
+    color: white;
+    background-color:#be1e2d;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    
+  }
+  .footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+  }
+  .footer2{
+    flex: 1;
+    margin: 0 90px;
+    font-size: 15px;
+  }
